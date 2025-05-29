@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.yes {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.yes:hover {
+  background-color: #005fa3;
+}
+
+.sub {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #94ff5e;
+}
+
+input[type="text"] {
+      padding: 10px;
+      width: 200px;
+}
+
+input[type="submit"] {
+      padding: 10px 20px;
+      margin-top: 10px;
+}
