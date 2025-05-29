@@ -8,5 +8,5 @@ document.getElementById("colorForm").addEventListener("submit", function(event) 
       const colorInput = document.getElementById("color").value;
       
       // Process the input (in this case, display it on the page)
-      document.getElementById("output").textContent = "Your input, '" + colorInput + "' was added to the database. Thank you!";
+      document.getElementById("output").textContent = "Your input '" + colorInput + "' was added to the database. Thank you!";
       });
